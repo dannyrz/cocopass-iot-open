@@ -1,0 +1,21 @@
+<web-app>
+	<listener>
+		<listener-class>com.LuYuanDong.Open.PreLoadListener</listener-class>
+	</listener>
+	<!--
+	 <servlet> <servlet-name>Init</servlet-name> <servlet-class>com.LuYuanDong.Open.Global</servlet-class> 
+		<load-on-startup>3</load-on-startup> </servlet> 
+	-->
+	 <servlet>
+  <servlet-name>log4j</servlet-name>
+  <description>no description</description>
+  <servlet-class>com.apache.jakarta.log4j.Log4jInit</servlet-class>
+  <init-param>
+  <param-name>log4j</param-name>
+  <param-value>/WEB-INF/classes/log4j.properties</param-value>
+  </init-param>  
+   </servlet>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

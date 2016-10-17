@@ -1,0 +1,44 @@
+http://localhost:8080/LuYuanDongOpen/index.jsp
+{"Action":"Terminal.SetTerminalID","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"TerminalID":"600000001","NewTerminalID":"600000002"},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","serialNumber":"1111"}
+{"ActionCode":"CEB001","Action":"Terminal.SetAuthHostAndPort","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"TerminalID":"600000001","Host":"www.alidiaoyu.com","Port":5006},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1111"}
+{"ActionCode":"CEB001","Action":"Terminal.SetAuthHostAndPort","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"TerminalID":"600000001","APNName":"UNINET","APNUserName":"user","APNPassword":""},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1111"}
+{"ActionCode":"CEB001","Action":"Terminal.ReBoot","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"TerminalID":"600000001"},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1111"}
+
+OK:{"ActionCode":"CEB001","Action":"Terminal.SwitchEBikePower","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"TerminalID":"600000001","OnOrOff":1},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1111"}
+OK:{"ActionCode":"CEB001","Action":"Terminal.SwitchEBikeTailLightPower","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"TerminalID":"600000006","OnOrOff":1},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1111"}
+OK:{"ActionCode":"CEB001","Action":"Terminal.ResetEBike","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"TerminalID":"600000006","OnOrOff":1},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1111"}
+OK:{"ActionCode":"CEB001","Action":"Terminal.SwitchEBikeTurnLightFlash","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"TerminalID":"600000001","OnOrOff":1},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1111"}
+OK:{"ActionCode":"CEB001","Action":"Terminal.SwitchEBikeTurnLightFlash","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"TerminalID":"600000001","OnOrOff":1},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1111"}
+
+{"ActionCode":"CEB001","Action":"GPS.GetLogFromDataBase","Key":"asdasdas343vbt","TimeStamp":1459213413000,"Parameters":{"TerminalID":"600000012","StartTime":1459094461000,"EndTime":1459173661,"IsOnlySuccessPosition":true},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"600000012-1459213413"}
+
+{"ActionCode":"CEB001","Action":"Terminal.SwitchEBikePower","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"EBikeTerminalID":"600000001","PileTerminalID":1,"PilePort":1,"OnOrOff":1,"Speed":5},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1111"}
+
+ D限速 E解除 
+
+29299755001623c3460307e0010714304a06040000000000020Df30D
+壳头 2+1+1+2+4+6=16 
+2929 97 85 0022 23c34603 07e00113023a 001453143508 5a1000 0706000000000002490D bf5501 d0 0D
+2929 96 60 002e 23c34601 001452450923 286a579a280000000000000000000000000001000000000000000100ff00000000010F0D
+
+
+/opt/apache-tomcat-8.0.30/webapps/LuYuanDongOpen/WEB-INF$  sudo cp -r /home/luyuandong/apache-tomcat-8.0.30/webapps/LuYuanDongOpen/WEB-INF/classes/ ./
+
+
+接口状态码
+0:调用成功
+1:post数据内容不符合规范
+2:接入appkey未注册
+3:接入app被禁用
+4:签名错误
+5:非法来源IP
+6:应用Session失效
+7:调用时间戳与服务器存在较大误差，不允许
+8:重复指令，非法
+9:调用类型不存在
+10:请求方法不够权限或不存在
+11:其他错误，如参数值错误，执行错误
+-------------------------------------------------------------------------
+获取站点信息
+
+{"Action":"Station.GetInfo","Key":"wedfwef3wq3joids5","TimeStamp":1451965246000,"Parameters":{"StationTerminalID":"623000021"},"Sign":"01DEB2A8CDDC78834606F2065AE95510","Version":"2.0","SerialNumber":"1451965246000-623000021"}
